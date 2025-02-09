@@ -1,7 +1,9 @@
 # Meat-the-Economy, using the Meatmerizor model
 
 # Project Description
-Meat the Economy / Meatmerizor -  
+Meat the Economy / Meatmerizor -  The Meatmerizor is a model that can predict the economic state of a country based on previous data of the country’s meat consumption and economic data. 
+More specifically, the Meatmerizor takes in a country’s meat consumption per capita along with Gross National Income, IMF exchange rates, population etc. for a given year. 
+The output is the predicted economic growth or decay. 
 # Project Goals
 Create a model to predict the country’s economic state based on the country’s meat consumption patterns. 
 # Data Collection
