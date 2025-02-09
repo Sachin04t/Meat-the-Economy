@@ -17,7 +17,8 @@ Classification Model/ Logistic regression
 Heatmaps
 Scatterplots
 # Test Plan
-We are most likely going to start by building predictive models for a few countries of our choosing and comparing their outputs to established data from government websites to see if our model is predicting correctly. We will then slowly add more countries until we finish a constructive that has all our countries and predicts out ten years. 
+We are most likely going to start by building predictive models for a few countries of our choosing and comparing their outputs to established data from government websites to see if our model is predicting correctly. 
+We will then slowly add more countries until we finish a constructive that has all our countries and predicts out ten years. 
 First, we’ll meatmerize data for Jamaica, Nepal, Egypt, Nigeria, and the United States from 1961-2021
 
 
