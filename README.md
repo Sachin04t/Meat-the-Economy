@@ -16,8 +16,7 @@ https://www.kaggle.com/datasets/prasad22/global-economy-indicators
 Polynomial/Linear Regression - starting with simple regression
 Classification Model/ Logistic regression 
 # Data Visualization
-Heatmaps
-Scatterplots
+Heatmaps and Scatterplots
 # Test Plan
 We are most likely going to start by building predictive models for a few countries of our choosing and comparing their outputs to established data from government websites to see if our model is predicting correctly. 
 We will then slowly add more countries until we finish a constructive that has all our countries and predicts out ten years. 
