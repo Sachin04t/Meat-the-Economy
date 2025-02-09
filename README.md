@@ -1,4 +1,4 @@
-# Destinys_Child
+# Meat-the-Economy
 Destiny's CS506 Child
 
 
