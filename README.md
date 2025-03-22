@@ -25,7 +25,7 @@ First, we’ll meatmerize data for Jamaica, Nepal, Egypt, Nigeria, and the Unite
 # MIDTERM REPORT
 
 # Preliminary visualizations of data:
-!(https://github.com/Sachin04t/Meat-the-Economy/blob/main/LinearRegressionGraph)
+![Linear Regression Graph]LinearRegressionGraph.png
 
 # Detailed description of data processing done so far
 We filtered through and dropped the years that contained null values for GDP per capita per purchasing power parity (PPP) for a given country. Since only 5% of the data set contained null GDP per capita PPP, abstaining from
