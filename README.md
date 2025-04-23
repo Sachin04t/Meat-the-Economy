@@ -86,7 +86,7 @@ While the original meatball score provided a general signal (R² ≈ 0.51), crea
 ---
 
 ### Kmeans Clustering results. (Meatballs and GDP per capita)
-![KMeans Clustering](Graphs/KmeansGraphMeatball.png)
+![KMeans Clustering](Graphs/KmeansGraphMeatball)
 
 KMeans clustering revealed four global country profiles based on GDP and weighted meat consumption. One cluster captured low-GDP, low-meatball nations, often limited by cultural or structural barriers to meat access. Another grouped developing economies with rising meat intake, signaling growing industrial food capacity. A third cluster highlighted wealthy, high-meatball countries with Western-style diets and strong agricultural infrastructure. Finally, a small elite cluster included extremely rich nations with high meat diversity, reflecting both affluence and globalized consumption.
 
