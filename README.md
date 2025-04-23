@@ -7,7 +7,6 @@
     <img alt="demo-video" src="https://img.shields.io/badge/🎬-Watch Demo-red?logo=youtube">
   </a>
   <img alt="python" src="https://img.shields.io/badge/Made with-Python-blue?logo=python">
-  <img alt="license" src="https://img.shields.io/badge/License-MIT-green">
 </p>
 
 > **Predicting economic trends one 🥩 at a time**
