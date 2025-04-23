@@ -69,6 +69,18 @@ positive correlation between meatball and GDP/PPP.
 
 ---
 
+### R^2 Results for Individual Meats
+R² for Poultry: 0.2709
+R² for Beef: 0.2062
+R² for Sheep and goat: 0.0279
+R² for Pork: 0.4859
+R² for Other meats: -0.0001
+R² for Fish and seafood: 0.1376
+
+![R^2 Score][Graphs/LinearRegressionGraph]
+
+---
+
 <details>
 <summary>🤝 <strong>Contributing</strong></summary>
 
