@@ -77,7 +77,7 @@ R² for Pork: 0.4859
 R² for Other meats: -0.0001
 R² for Fish and seafood: 0.1376
 
-![R^2 Score][Graphs/LinearRegressionGraph]
+![R^2 Individual Meats.png][Graphs/R^2 Individual Meats.png]
 
 ---
 
