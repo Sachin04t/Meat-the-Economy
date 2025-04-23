@@ -113,28 +113,28 @@ Cluster 6: ['Bermuda' 'Norway' 'Switzerland'] <br>
 Cluster 7: ['Saint Lucia' 'Saint Vincent and the Grenadines']
 
 
-DBSCAN_Cluster      WeightedMeatball <br>               
--1                     28.056932   <br>
- 0                     12.585853   <br>
- 1                     37.575794   <br>
- 2                     24.093620   <br>
- 3                     21.595027   <br>
- 4                     33.670416   <br>
- 5                     17.865095   <br>
- 6                     24.497552   <br>
- 7                     29.962399   <br>
+DBSCAN_Cluster   |   WeightedMeatball <br>               
+-1               |      28.056932   <br>
+ 0               |      12.585853   <br>
+ 1               |      37.575794   <br>
+ 2               |      24.093620   <br>
+ 3               |      21.595027   <br>
+ 4               |      33.670416   <br>
+ 5               |      17.865095   <br>
+ 6               |      24.497552   <br>
+ 7               |      29.962399   <br>
 
                   
-DBSCAN_Cluster                        GDP per capita, PPP (constant 2017 international $)     <br>                 
--1                                                   49359.614343    <br>
- 0                                                   12853.347468    <br>
- 1                                                   38839.518000    <br>
- 2                                                   52637.827727    <br>
- 3                                                   70663.221250    <br>
- 4                                                   30578.904682    <br>
- 5                                                   27974.776857    <br>
- 6                                                   63758.010111    <br>
- 7                                                   14131.533455    
+DBSCAN_Cluster              |          GDP per capita, PPP (constant 2017 international $)     <br>                 
+-1                          |                         49359.614343    <br>
+ 0                          |                         12853.347468    <br>
+ 1                          |                         38839.518000    <br>
+ 2                          |                         52637.827727    <br>
+ 3                          |                         70663.221250    <br>
+ 4                          |                         30578.904682    <br>
+ 5                          |                         27974.776857    <br>
+ 6                          |                         63758.010111    <br>
+ 7                          |                         14131.533455    
 
 
 DBSCAN revealed micro-communities of economic/meat behavior that KMeans blurred out — such as “rich but moderate meat” countries (Cluster 2) vs “rich and very meaty” (Cluster 1).
