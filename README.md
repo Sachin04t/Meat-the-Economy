@@ -47,7 +47,7 @@ https://www.kaggle.com/datasets/scibearia/meat-consumption-per-capita
 ---
 
 ### Preliminary visualizations of data
-![Linear Regression Graph](LinearRegressionGraph)
+![Linear Regression Graph](Graphs/LinearRegressionGraph)
 
 ---
 
