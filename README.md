@@ -21,7 +21,7 @@
 - [Preliminary visualizations of data](#preliminary-visualizations-of-data)
 - [Detailed description of data processing done so far](#detailed-description-of-data-processing-done-so-far)
 - [Detailed description of data modeling methods used so far](#detailed-description-of-data-modeling-methods-used-so-far)
-- [Preliminary results. (e.g. we fit a linear model to the data and we achieve promising results, or we did some clustering and we notice a clear pattern in the data)](#preliminary-results-eg-we-fit-a-linear-model-to-the-data-and-we-achieve-promising-results-or-we-did-some-clustering-and-we-notice-a-clear-pattern-in-the-data)
+- [Preliminary results. (e.g. we fit a linear model to the data)](#preliminary-results-eg-we-fit-a-linear-model-to-the-data-and-we-achieve-promising-results-or-we-did-some-clustering-and-we-notice-a-clear-pattern-in-the-data)
 - [R^2 Results for Individual Meats](#r2-results-for-individual-meats)
 - [Kmeans Clustering Results](#kmeans-clustering-results-meatballs-and-gdp-per-capita)
 - [DBSCAN Results](#dbscan-results-meatballs-and-gdp-per-capita)
@@ -183,8 +183,8 @@ PCA reveals that meat consumption profiles are not randomly distributed. Instead
 The structure of meat consumption across countries reflects long-standing religious taboos, philosophical values, and substitution strategies. Secular and Christian-majority nations tend toward industrial meat diversity, while Muslim and Hindu populations shape diets through prohibitions and adaptations, often reinforcing regional protein alternatives like fish, goat, or poultry.
 
 ---
-
-### <details>
+### <br>
+<details>
 <summary>🤝 <strong>Contributors</strong></summary>
 
 1. Kaizia 
