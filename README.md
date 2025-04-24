@@ -43,6 +43,7 @@ More specifically, the Meatmerizor takes in a country’s meat consumption per c
 ### Data Collection
 - **National meat eating history (From Kaggle)** 
 - **Global GDP per capita, PPP data (From Kaggle)**
+
 Datasets:  
 https://www.kaggle.com/datasets/scibearia/meat-consumption-per-capita
 
