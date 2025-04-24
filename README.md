@@ -161,6 +161,13 @@ This entropy-based analysis suggests that dietary diversity may serve as a proxy
 
 ---
 
+### PCA of Meat Types (Individual meats, colored by GDP)
+![PCA of Meat Profiles](Graphs/PCAOfMeatProfilesByGDP)
+
+PCA reveals that meat consumption profiles are not randomly distributed. Instead, GDP stratifies countries along a dietary axis dominated by pork and poultry. This suggests that economic growth is often accompanied by dietary convergence (toward a Westernized, industrial meat standard) potentially at the expense of cultural diversity.
+
+---
+
 <details>
 <summary>🤝 <strong>Contributors</strong></summary>
 
