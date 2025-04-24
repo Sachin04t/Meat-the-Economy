@@ -185,7 +185,7 @@ The structure of meat consumption across countries reflects long-standing religi
 ---
 
 <details>
-<summary>🤝 <strong>Contributors</strong></summary>
+### <summary>🤝 <strong>Contributors</strong></summary>
 
 1. Kaizia 
 2. Yeabsera
