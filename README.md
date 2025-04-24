@@ -34,14 +34,15 @@ More specifically, the Meatmerizor takes in a country’s meat consumption per c
 ---
 
 ### Project Goals
-Create a model to predict the country’s economic state based on the country’s meat consumption patterns.  
-Find correlations between meat consumption habits of countries with upward and downward trends on GDP per capita PPP.
+- **Quantify the relationship** between meat consumption and economic growth.
+- **Model economic patterns** using linear regression and clustering techniques.
+- **Interpret findings** through the lens of cultural factors (e.g., religion) and dietary diversity (entropy).
 
 ---
 
 ### Data Collection
-National meat eating history (From Kaggle)  
-Global GDP per capita, PPP data (From Kaggle)  
+- **National meat eating history (From Kaggle)** 
+- **Global GDP per capita, PPP data (From Kaggle)**
 Datasets:  
 https://www.kaggle.com/datasets/scibearia/meat-consumption-per-capita
 
