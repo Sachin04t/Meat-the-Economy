@@ -140,14 +140,17 @@ Cluster 7: ['Saint Lucia' 'Saint Vincent and the Grenadines']
 
 
 DBSCAN revealed micro-communities of economic/meat behavior that KMeans blurred out — such as “rich but moderate meat” countries (Cluster 2) vs “rich and very meaty” (Cluster 1).
-
 Small wealthy nations (e.g. Bermuda, Brunei) tend to form their own clusters — likely due to tourism, imports, or elite consumption patterns.
-
 Cluster 0 represents the bulk of lower-to-middle income nations, reinforcing meat as a luxury signal in global food systems.
-
 Meatball score still matters: countries with scores over 30 consistently map to higher GDP clusters or noise (elite states).
-
 Meanwhile, the highest GDP countries with low meatball scores didn’t even cluster well — they were marked as outliers, reinforcing their uniqueness.
+
+---
+
+### Meat Type Composition: Rich vs Poor. (Individual Meats)
+![Meat Type Composition: Rich vs Poor](Graphs/MeatTypeByRichandPoor)
+
+While wealthier nations consume more meat overall, their diet composition is also distinct. Richer countries lean heavily on pork and poultry — meats typically associated with industrial farming and Westernized dietary patterns — while poorer countries consume more beef, goat, and fish, likely driven by regional availability, cultural practices, and economic access.
 
 ---
 
