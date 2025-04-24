@@ -22,7 +22,7 @@
 - [Detailed description of data processing done so far](#detailed-description-of-data-processing-done-so-far)
 - [Detailed description of data modeling methods used so far](#detailed-description-of-data-modeling-methods-used-so-far)
 - [Preliminary results. (e.g. we fit a linear model to the data and we achieve promising results, or we did some clustering and we notice a clear pattern in the data)](#preliminary-results-eg-we-fit-a-linear-model-to-the-data-and-we-achieve-promising-results-or-we-did-some-clustering-and-we-notice-a-clear-pattern-in-the-data)
-- [R^2 Results for Individual Meats](#R^2-Results-for-Individual-Meats)
+- [R^2 Results for Individual Meats](#r^2-results-for-individual-meats)
 - [Contributing](#contributing)
 
 ---
