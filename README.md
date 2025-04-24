@@ -154,14 +154,20 @@ While wealthier nations consume more meat overall, their diet composition is als
 
 ---
 
-<details>
-<summary>🤝 <strong>Contributing</strong></summary>
+### Meat Diversity (Entropy) vs GDP per Capita
+![Meat Entropy vs GDP per Capita](Graphs/MeatEntropyVsGDPPerCapita)
 
-1. Fork this repo  
-2. Create your feature branch (`git checkout -b feature/foo`)  
-3. Commit your changes (`git commit -m 'Add some foo'`)  
-4. Push to the branch (`git push origin feature/foo`)  
-5. Open a Pull Request  
+This entropy-based analysis suggests that dietary diversity may serve as a proxy for a country's position in the globalized economy. Nations with limited meat variety appear structurally constrained (by geography, religion, or supply chains) while those with higher entropy demonstrate the logistical and cultural infrastructure of developed economies.
+
+---
+
+<details>
+<summary>🤝 <strong>Contributors</strong></summary>
+
+1. Kaizia 
+2. Yeabsera
+3. Adham  
+4. Sachin  
 
 Thanks for helping make the Meatmerizor sizzle! 🔥
 </details>
