@@ -14,10 +14,6 @@ run: install
 	@$(ENV_NAME)/Scripts/python cs506_meattheeconomy.py || \
 	$(ENV_NAME)/bin/python cs506_meattheeconomy.py
 
-## Run tests (optional, include a test_*.py file in tests/)
-test: install
-	@$(ENV_NAME)/Scripts/python -m unittest discover tests || \
-	$(ENV_NAME)/bin/python -m unittest discover tests
 
 ## Remove the virtual environment (cross-platform)
 clean:
