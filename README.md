@@ -183,6 +183,18 @@ PCA reveals that meat consumption profiles are not randomly distributed. Instead
 The structure of meat consumption across countries reflects long-standing religious taboos, philosophical values, and substitution strategies. Secular and Christian-majority nations tend toward industrial meat diversity, while Muslim and Hindu populations shape diets through prohibitions and adaptations, often reinforcing regional protein alternatives like fish, goat, or poultry.
 
 ---
+
+### Random Forest Prediction of GDP (Using meat consumption along with past GDP)
+![Random Forest Prediction vs Actual](Graphs/RandomForestPredictionsVsActual.png)
+R^2 Score: 0.9947286920285141
+RMSE: 1422.8991966523777
+
+### Average |SHAP| Values (mean of abs. value)
+![Features Vs Mean(|SHAP|)](Graphs/FeaturesVsMeanSHAPValues.png)
+
+
+---
+
 ### <br>
 <details>
 <summary>🤝 <strong>Contributors</strong></summary>
