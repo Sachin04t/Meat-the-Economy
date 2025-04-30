@@ -29,7 +29,9 @@
 - [Meat Diversity (Entropy)](#meat-diversity-entropy-vs-gdp-per-capita)
 - [PCA of Meat Types](#pca-of-meat-types-individual-meats-colored-by-gdp)
 - [Average Meat Composition by Religion](#average-meat-composition-by-religion-individual-meats)
-- [Contributing](#contributing)
+- [Random Forest Predictor](#random-forest-prediction-of-gdp-using-meat-consumption-along-with-past-gdp)
+- [SHAP Values for Predictor](#average-shap-values-mean-of-abs-value)
+- [Meat the Team](#the-team)
 
 ---
 
