@@ -190,10 +190,14 @@ The structure of meat consumption across countries reflects long-standing religi
 ![Random Forest Prediction vs Actual](Graphs/RandomForestPredictionsVsActual.png)
 - R^2 Score: 0.9947286920285141
 - RMSE: 1422.8991966523777
+- 
+Random Forest Predictions vs Actual: Closer to diagonal the more accurate the prediction. In this case, there are minor over and under predictions. There a few outliers as well - these could be oil nations, island nations etc. that have vibrant economies with unnatural meat consumption patterns.
+
 
 ### Average |SHAP| Values (mean of abs. value)
 ![Features Vs Mean(|SHAP|)](Graphs/FeaturesVsMeanSHAPValues.png)
 
+Features vs Mean |SHAP|: Shows how much of a positive or negative impact did features have in the prediction of the model. Unsurprisingly, GDP lag has a lot to do with the prediction - old gdp helps predict new gdp. This also tells us that momentum is a relevant factor. Additionally, the meats themselves are not as beneficial as the meatball, but amongst the individual meats, poultry had the strongest indicator of economic growth / decay.
 
 ---
 
@@ -210,6 +214,5 @@ Thanks for helping make the Meatmerizor sizzle! 🔥
 </details>
 
 ---
-
 <p align="center">Made with ❤ and 🥩 by the Meatmerizor team</p>
 
