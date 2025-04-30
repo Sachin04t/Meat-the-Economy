@@ -186,8 +186,8 @@ The structure of meat consumption across countries reflects long-standing religi
 
 ### Random Forest Prediction of GDP (Using meat consumption along with past GDP)
 ![Random Forest Prediction vs Actual](Graphs/RandomForestPredictionsVsActual.png)
-R^2 Score: 0.9947286920285141
-RMSE: 1422.8991966523777
+- R^2 Score: 0.9947286920285141
+- RMSE: 1422.8991966523777
 
 ### Average |SHAP| Values (mean of abs. value)
 ![Features Vs Mean(|SHAP|)](Graphs/FeaturesVsMeanSHAPValues.png)
@@ -195,7 +195,7 @@ RMSE: 1422.8991966523777
 
 ---
 
-### <br>
+### The Team
 <details>
 <summary>🤝 <strong>Contributors</strong></summary>
 
