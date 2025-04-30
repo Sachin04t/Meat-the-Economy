@@ -31,7 +31,7 @@
 - [Average Meat Composition by Religion](#average-meat-composition-by-religion-individual-meats)
 - [Random Forest Predictor](#random-forest-prediction-of-gdp-using-meat-consumption-along-with-past-gdp)
 - [SHAP Values for Predictor](#average-shap-values-mean-of-abs-value)
-- [Meat the Team](#the-team)
+- [Meat the Team](#about-us)
 
 ---
 
@@ -197,9 +197,9 @@ The structure of meat consumption across countries reflects long-standing religi
 
 ---
 
-### The Team
+### About Us
 <details>
-<summary>🤝 <strong>Contributors</strong></summary>
+<summary>🤝 <strong>Meat the Team</strong></summary>
 
 1. Kaizia 
 2. Yeabsera
