@@ -3,7 +3,7 @@
 <h1 align="center">🥩 Meat-the-Economy <br><sub>using the <em>Meatmerizor</em> model</sub></h1>
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=eEIQnOcHQdU">
+  <a href="https://www.youtube.com/watch?v=AnERxex-xw4">
     <img alt="demo-video" src="https://img.shields.io/badge/🎬-Watch Demo-red?logo=youtube">
   </a>
   <img alt="python" src="https://img.shields.io/badge/Made with-Python-blue?logo=python">
