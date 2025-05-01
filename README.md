@@ -174,6 +174,30 @@ PCA reveals that meat consumption profiles are not randomly distributed. Instead
 
 ---
 
+### Country Spotlights - Diet Development
+<div style="overflow-x: auto; white-space: nowrap;">
+  <img src="Graphs/EgyptMeatTrend" alt="Egypt Meat Trend" width="300" style="display: inline-block; margin-right: 10px;" />
+  <img src="Graphs/UnitedStateMeaTTrend" alt="U.S. Meat Trend" width="300" style="display: inline-block; margin-right: 10px;" />
+  <img src="Graphs/BrazilMeatTrend" alt="Brazil Meat Trend" width="300" style="display: inline-block; margin-right: 10px;" />
+  <img src="Graphs/JapanMeatTrend" alt="Japan Meat Trend" width="300" style="display: inline-block; margin-right: 10px;" />
+  <img src="Graphs/NigeriaMeatTrend" alt="Nigeria Meat Trend" width="300" style="display: inline-block; margin-right: 10px;" />
+</div>
+
+- Egypt’s meat evolution reflects an economically responsive, religiously bound system: high fish suggests coastal dependence, rising poultry signals industrialization.
+- The US shows what happens after dietary industrialization peaks — poultry optimization, beef retreat, and little cultural incentive to diversify
+- Brazil exemplifies the economic transition pathway: from cattle dominance → poultry surge → slight dietary diversification.
+- Japan proves that you can develop economically while retaining cultural dietary roots — meat diversification here is measured, not disruptive.
+- Nigeria reflects a resource-dependent diet vulnerable to shocks (climate, imports, conflict). Low meat diversity = food system fragility.
+
+## This shows...
+-Poultry is the first industrial step as countries develop
+-Beef shrinks as economies mature or costs rise
+-Fish is versatile: cultural in Japan, fallback in Nigeria, trade-driven in Egypt
+-Pork only thrives where religion allows it
+-Meat transitions are not linear — they reflect identity, geography, and infrastructure
+
+---
+
 ### Average Meat Composition by Religion (Individual meats)
 ![Avg Meat Composition by Religion](Graphs/AvgMeatByReligion)
 
