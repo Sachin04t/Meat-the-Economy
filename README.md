@@ -11,6 +11,7 @@
 
 > **Predicting economic trends one 🥩 at a time**
 
+---
 ### Instructions for Building and Running our Code
 1. **Clone this repository** or download the following files into the same folder:
    - `cs506_meattheeconomy.py`
@@ -24,16 +25,18 @@
      - make run
        
 3. **Important Warning**
-This project uses **SHAP** to generate model explainability plots.
+ 
+  - This project uses **SHAP** to generate model explainability plots.
 
-SHAP can be **resource-intensive** and may not work reliably on machines without a compatible GPU or proper `torch` installation.
+  - SHAP can be **resource-intensive** and may not work reliably on machines without a compatible GPU or proper `torch` installation.
 
-If you experience issues running SHAP (such as crashes or memory errors), you can safely ignore the SHAP explanation by skipping the last figure.
+  - If you experience issues running SHAP (e.g., the script hangs, your computer slows down, or a plot window won’t close), you can safely skip the SHAP explanation by:
 
-✅ The main analysis and all other plots will still work without SHAP.
+       1. **Force quitting the terminal or pressing `Ctrl + C`** to stop execution
+       2. **Commenting out the `import shap` line and the SHAP block** in `cs506_meattheeconomy.py`
 
-If you prefer a fully reproducible experience without SHAP, **comment out the `import shap` line and the SHAP block** in `cs506_meattheeconomy.py`.
-
+  - ✅ The main analysis and all other plots will still work without SHAP so you won’t lose any critical results by skipping the SHAP explanation.
+    
 ---
 
 ## 📜 Table of Contents
