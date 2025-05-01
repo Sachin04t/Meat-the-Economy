@@ -191,11 +191,11 @@ PCA reveals that meat consumption profiles are not randomly distributed. Instead
 
 ## This shows...
 
--Poultry is the first industrial step as countries develop
--Beef shrinks as economies mature or costs rise
--Fish is versatile: cultural in Japan, fallback in Nigeria, trade-driven in Egypt
--Pork only thrives where religion allows it
--Meat transitions are not linear — they reflect identity, geography, and infrastructure
+- Poultry is the first industrial step as countries develop
+- Beef shrinks as economies mature or costs rise
+- Fish is versatile: cultural in Japan, fallback in Nigeria, trade-driven in Egypt
+- Pork only thrives where religion allows it
+- Meat transitions are not linear — they reflect identity, geography, and infrastructure
 
 ---
 
@@ -208,16 +208,27 @@ The structure of meat consumption across countries reflects long-standing religi
 
 ### Random Forest Prediction of GDP (Using meat consumption along with past GDP)
 ![Random Forest Prediction vs Actual](Graphs/RandomForestPredictionsVsActual.png)
-- R^2 Score: 0.9947286920285141
-- RMSE: 1422.8991966523777
-- 
-Random Forest Predictions vs Actual: Closer to diagonal the more accurate the prediction. In this case, there are minor over and under predictions. There a few outliers as well - these could be oil nations, island nations etc. that have vibrant economies with unnatural meat consumption patterns.
+
+## Features we trained on
+- Individual meat types
+- Total per capita meat consumption (Meatball)
+- Meat Entropy (a measure of dietary diversity)
+- GDP Lag (previous year’s GDP)
+- Year-over-year trends in meat consumption per type
+
+The model worked exceptionally with an R^2 Score: 0.9947286920285141 and RMSE: $1422.8991966523777
 
 
-### Average |SHAP| Values (mean of abs. value)
+### Average |SHAP| Values (Shapley Values)
 ![Features Vs Mean(|SHAP|)](Graphs/FeaturesVsMeanSHAPValues.png)
 
-Features vs Mean |SHAP|: Shows how much of a positive or negative impact did features have in the prediction of the model. Unsurprisingly, GDP lag has a lot to do with the prediction - old gdp helps predict new gdp. This also tells us that momentum is a relevant factor. Additionally, the meats themselves are not as beneficial as the meatball, but amongst the individual meats, poultry had the strongest indicator of economic growth / decay.
+To interpret the model’s predictions, we used SHAP values — a game-theory-based tool that explains how much each feature contributes to a prediction. See: https://shap.readthedocs.io/en/latest/example_notebooks/tabular_examples/tree_based_models/Python%20Version%20of%20Tree%20SHAP.html#Train-sklearn-random-forest
+
+Key takeaways from the SHAP analysis:
+- GDP Lag is by far the most influential feature, highlighting that economic momentum is a major driver of current GDP.
+- Meatball score and Meat Entropy were also high-impact, suggesting that both the volume and diversity of meat consumption are meaningful economic signals.
+- Among individual meats, poultry trend emerged as the strongest predictor — likely due to poultry's widespread adoption and affordability during economic transitions.
+- Lower-impact meats (like sheep or fish) reflected more regional or culturally constrained signals.
 
 ---
 
