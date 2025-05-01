@@ -19,7 +19,7 @@
 |[Video link](#video-link)                                                                        |[Rich vs Poor Meat Composition](#meat-type-composition-rich-vs-poor-individual-meats)                 |
 |[Project Description](#project-description)                                                      |[Meat Diversity (Entropy)](#meat-diversity-entropy-vs-gdp-per-capita)                                 |
 |[Project Goals](#project-goals)                                                                  |[PCA of Meat Types](#pca-of-meat-types-individual-meats-colored-by-gdp)                               |
-|[Data Collection](#data-collection)                                                              |                                                                                                      |
+|[Data Collection](#data-collection)                                                              |[Country Spotlights](#country-spotlights---diet-development)                                                                                                      |
 |[Detailed description of data processing](#detailed-description-of-data-processing)              |[Average Meat Composition by Religion](#average-meat-composition-by-religion-individual-meats)        |
 |[Detailed description of data modeling methods](#detailed-description-of-data-modeling-methods)  |[Random Forest Predictor](#random-forest-prediction-of-gdp-using-meat-consumption-along-with-past-gdp)|
 |[R^2 Results for Individual Meats](#r2-results-for-individual-meats)                             |[SHAP Values for Predictor](#average-shap-values-mean-of-abs-value)                                   |
@@ -190,6 +190,7 @@ PCA reveals that meat consumption profiles are not randomly distributed. Instead
 - Nigeria reflects a resource-dependent diet vulnerable to shocks (climate, imports, conflict). Low meat diversity = food system fragility.
 
 ## This shows...
+
 -Poultry is the first industrial step as countries develop
 -Beef shrinks as economies mature or costs rise
 -Fish is versatile: cultural in Japan, fallback in Nigeria, trade-driven in Egypt
