@@ -236,9 +236,9 @@ Key takeaways from the SHAP analysis:
 <details>
 <summary>🤝 <strong>Meat the Team</strong></summary>
 
-1. Kaizia: I am a Computer Science major with a minor in Biology and my favorite meat dish is steak
+1. Kaizia: I am a Computer Science major with a minor in Biology and my favorite meat dish is Steak.
 2. Yeabsera: I am a Data Science and Political Science major with a minor in Public Policy Analysis and my favorite meat dish is Tibs(Ethiopian dish). 
-3. Adham  
+3. Adham: I am a Data Science major and my favorite meat is Crab Legs.   
 4. Sachin  
 
 Thanks for helping make the Meatmerizor sizzle! 🔥
