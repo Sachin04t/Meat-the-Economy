@@ -14,24 +14,17 @@
 ---
 
 ## 📜 Table of Contents
-- [Video link](#video-link)
-- [Project Description](#project-description)
-- [Project Goals](#project-goals)
-- [Data Collection](#data-collection)
-- [Preliminary visualizations of data](#preliminary-visualizations-of-data)
-- [Detailed description of data processing done so far](#detailed-description-of-data-processing-done-so-far)
-- [Detailed description of data modeling methods used so far](#detailed-description-of-data-modeling-methods-used-so-far)
-- [Preliminary results. (e.g. we fit a linear model to the data)](#preliminary-results-eg-we-fit-a-linear-model-to-the-data-and-we-achieve-promising-results-or-we-did-some-clustering-and-we-notice-a-clear-pattern-in-the-data)
-- [R^2 Results for Individual Meats](#r2-results-for-individual-meats)
-- [Kmeans Clustering Results](#kmeans-clustering-results-meatballs-and-gdp-per-capita)
-- [DBSCAN Results](#dbscan-results-meatballs-and-gdp-per-capita)
-- [Rich vs Poor Meat Composition](#meat-type-composition-rich-vs-poor-individual-meats)
-- [Meat Diversity (Entropy)](#meat-diversity-entropy-vs-gdp-per-capita)
-- [PCA of Meat Types](#pca-of-meat-types-individual-meats-colored-by-gdp)
-- [Average Meat Composition by Religion](#average-meat-composition-by-religion-individual-meats)
-- [Random Forest Predictor](#random-forest-prediction-of-gdp-using-meat-consumption-along-with-past-gdp)
-- [SHAP Values for Predictor](#average-shap-values-mean-of-abs-value)
-- [Meat the Team](#about-us)
+|                                                                                                 |                                                                                                      |
+|-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------:|
+|[Video link](#video-link)                                                                        |[Rich vs Poor Meat Composition](#meat-type-composition-rich-vs-poor-individual-meats)                 |
+|[Project Description](#project-description)                                                      |[Meat Diversity (Entropy)](#meat-diversity-entropy-vs-gdp-per-capita)                                 |
+|[Project Goals](#project-goals)                                                                  |[PCA of Meat Types](#pca-of-meat-types-individual-meats-colored-by-gdp)                               |
+|[Data Collection](#data-collection)                                                              |                                                                                                      |
+|[Detailed description of data processing](#detailed-description-of-data-processing)              |[Average Meat Composition by Religion](#average-meat-composition-by-religion-individual-meats)        |
+|[Detailed description of data modeling methods](#detailed-description-of-data-modeling-methods)  |[Random Forest Predictor](#random-forest-prediction-of-gdp-using-meat-consumption-along-with-past-gdp)|
+|[R^2 Results for Individual Meats](#r2-results-for-individual-meats)                             |[SHAP Values for Predictor](#average-shap-values-mean-of-abs-value)                                   |
+|[Kmeans Clustering Results](#kmeans-clustering-results-meatballs-and-gdp-per-capita)             |[Meat the Team](#about-us)                                                                            |
+|[DBSCAN Results](#dbscan-results-meatballs-and-gdp-per-capita)                                   |                                                                                                      |
 
 ---
 
@@ -57,26 +50,41 @@ https://www.kaggle.com/datasets/scibearia/meat-consumption-per-capita
 
 ---
 
-### Preliminary visualizations of data
+### Detailed description of data preparation
+
+- **Data Cleaning**: Removed records with missing GDP or meat values. (5% of the data set contained null GDP per capita PPP, abstaining from using the null years won’t have a huge impact on the analysis)
+- **Feature Engineering**:
+   - **Meatball**: Total per capita meat consumption.
+   - **Meat Entropy**: Shannon entropy to capture meat diversity per country-year.
+   - **GDP Lag**: Previous year’s GDP to reflect economic momentum.
+   - **Meat Trend Slopes**: Computed per-country, per-meat trends over time.
+- **Merging**: Combined cleaned meat and GDP datasets by country and year.
+- **Normalization**: Applied scaling where appropriate for clustering and PCA.
+
+---
+
+### Detailed description of data modeling methods 
+We implemented a variety of modeling techniques to analyze and predict the relationship between meat consumption and GDP:
+
+- **Linear Regression**: Initially used to explore the Meatball–GDP relationship (R² ≈ 0.51).
+- **Weighted Meatball Score**: Improved predictive power by weighting meat types based on individual R² scores (R² ≈ 0.55).
+- **Clustering Models**:
+  - **KMeans** revealed macro patterns in global dietary-economic groupings.
+  - **DBSCAN** uncovered finer distinctions and outlier countries.
+- **Random Forest Regressor**:
+  - Trained on meat type trends, meatball score, entropy, and GDP lag.
+  - Achieved strong performance (**R² ≈ 0.73**), showing meat data alone is a robust economic signal.
+- **SHAP (SHapley Additive Values)**:
+  - Interpreted feature importance.
+  - Confirmed **GDP lag**, **meatball**, and **poultry trend** were dominant drivers of predictions.
+
+This modeling progression helped us move from correlation-based insight to fully interpretable economic prediction.
+
+---
+
+### Linear Regression (Meatball)
 ![Linear Regression Graph](Graphs/LinearRegressionGraph)
 
----
-
-### Detailed description of data processing done so far
-We filtered through and dropped the years that contained null values for GDP per capita per purchasing power parity (PPP) for a given country. Since only 5% of the data set contained null GDP per capita PPP, abstaining from
-using the null years won’t have a huge impact on the analysis. Next, we combined the various meats consumed at each given year for each given country into a “meatball.” This accounts for various cultural, religious, and 
-geographical differences between the countries. Ultimately, we wanted to look strictly at the amount of meat with relation to the country’s GDP per capita PPP along with the growth rate of each country’s meatball.
-
----
-
-### Detailed description of data modeling methods used so far
-We ran a linear regression model with the GDP per capita PPP as the dependent variable and the meatball data as the independent. 
-
----
-
-### Preliminary results. (e.g. we fit a linear model to the data and we achieve promising results, or we did some clustering and we notice a clear pattern in the data)
-We fit the linear model onto our data and we achieved a promising result. The model suggests that the bigger a country’s meatball, the greater their GDP per capita PPP.  Our r^2 value was 0.51 which further supports the
-positive correlation between meatball and GDP/PPP. 
 
 ---
 
