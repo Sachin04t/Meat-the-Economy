@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import shap
 
 
 from sklearn.linear_model import LinearRegression
@@ -257,6 +258,13 @@ plt.title("Random Forest Predictions vs Actual")
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+
+
+#SHAP Explanation
+explainer = shap.Explainer(model, X_train)
+shap_values = explainer(X_test)
+shap.plots.bar(shap_values)
+
 
 input("Press Enter to exit...")
 
