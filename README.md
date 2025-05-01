@@ -18,6 +18,7 @@
    - `requirements.txt`
    - `GDP per capita PPP.csv`
    - `Consumption of meat per capita.csv`
+   - Makefile
 
 2. **Run the Makefile** using Git Bash (or any terminal with `make` installed):
    - **use commands:**
