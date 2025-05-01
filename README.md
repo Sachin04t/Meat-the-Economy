@@ -236,7 +236,7 @@ Key takeaways from the SHAP analysis:
 <details>
 <summary>🤝 <strong>Meat the Team</strong></summary>
 
-1. Kaizia 
+1. Kaizia: I am a Computer Science major with a minor in Biology and my favorie meat dish is steak.
 2. Yeabsera
 3. Adham  
 4. Sachin  
