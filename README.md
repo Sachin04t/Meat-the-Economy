@@ -142,7 +142,7 @@ Cluster 7: ['Saint Lucia' 'Saint Vincent and the Grenadines']
 |4               |33.670416           |30578.904682                                        |
 |5               |17.865095           |27974.776857                                        |
 |6               |24.497552           |63758.010111                                        |
-|7               |29.962399           ||14131.533455                                       |
+|7               |29.962399           |14131.533455                                        |
 
 
 DBSCAN revealed micro-communities of economic/meat behavior that KMeans blurred out — such as “rich but moderate meat” countries (Cluster 2) vs “rich and very meaty” (Cluster 1).
