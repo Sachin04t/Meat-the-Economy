@@ -11,6 +11,29 @@
 
 > **Predicting economic trends one 🥩 at a time**
 
+### Instructions for Building and Running our Code
+1. **Clone this repository** or download the following files into the same folder:
+   - `cs506_meattheeconomy.py`
+   - `requirements.txt`
+   - `GDP per capita PPP.csv`
+   - `Consumption of meat per capita.csv`
+
+2. **Run the Makefile** using Git Bash (or any terminal with `make` installed):
+   - **use commands:**
+     - make install
+     - make run
+       
+3. **Important Warning**
+This project uses **SHAP** to generate model explainability plots.
+
+SHAP can be **resource-intensive** and may not work reliably on machines without a compatible GPU or proper `torch` installation.
+
+If you experience issues running SHAP (such as crashes or memory errors), you can safely ignore the SHAP explanation by skipping the last figure.
+
+✅ The main analysis and all other plots will still work without SHAP.
+
+If you prefer a fully reproducible experience without SHAP, **comment out the `import shap` line and the SHAP block** in `cs506_meattheeconomy.py`.
+
 ---
 
 ## 📜 Table of Contents
@@ -231,15 +254,14 @@ Key takeaways from the SHAP analysis:
 - Lower-impact meats (like sheep or fish) reflected more regional or culturally constrained signals.
 
 ---
-
 ### About Us
 <details>
 <summary>🤝 <strong>Meat the Team</strong></summary>
 
-1. Kaizia: I am a Computer Science major with a minor in Biology and my favorite meat dish is Steak.
+1. Kaizia: I am a Computer Science major with a minor in Biology and my favorite meat dish is Oxtail.
 2. Yeabsera: I am a Data Science and Political Science major with a minor in Public Policy Analysis and my favorite meat dish is Tibs(Ethiopian dish). 
 3. Adham: I am a Data Science major and my favorite meat dish is Crab Legs.   
-4. Sachin: I am Computer Science major and my favorite meat dish right now is crispy pork belly.
+4. Sachin: I am Computer Science major and my favorite meat dish right now is Crispy Pork Belly.
 
 Thanks for helping make the Meatmerizor sizzle! 🔥
 </details>
