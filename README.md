@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=AnERxex-xw4">
-    <img alt="demo-video" src="https://img.shields.io/badge/🎬-Watch Demo-red?logo=youtube">
+    <img alt="demo-video" src="https://img.shields.io/badge/🎬-Watch Final Project Presentation-red?logo=youtube">
   </a>
   <img alt="python" src="https://img.shields.io/badge/Made with-Python-blue?logo=python">
 </p>
