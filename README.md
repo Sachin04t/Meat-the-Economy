@@ -43,13 +43,13 @@
 ## 📜 Table of Contents
 |                                                                                                 |                                                                                                      |
 |-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------:|
-|[Video link](#video-link)                                                                        |[Rich vs Poor Meat Composition](#meat-type-composition-rich-vs-poor-individual-meats)                 |
+|[Video link](#-meat-the-economy-using-the-meatmerizor-model)                                     |[Rich vs Poor Meat Composition](#meat-type-composition-rich-vs-poor-individual-meats)                 |
 |[Project Description](#project-description)                                                      |[Meat Diversity (Entropy)](#meat-diversity-entropy-vs-gdp-per-capita)                                 |
 |[Project Goals](#project-goals)                                                                  |[PCA of Meat Types](#pca-of-meat-types-individual-meats-colored-by-gdp)                               |
-|[Data Collection](#data-collection)                                                              |[Country Spotlights](#country-spotlights---diet-development)                                                                                                      |
-|[Detailed description of data processing](#detailed-description-of-data-processing)              |[Average Meat Composition by Religion](#average-meat-composition-by-religion-individual-meats)        |
+|[Data Collection](#data-collection)                                                              |[Country Spotlights](#country-spotlights---diet-development)                                          |                                                            |
+|[Detailed description of data processing](#detailed-description-of-data-preparation)             |[Average Meat Composition by Religion](#average-meat-composition-by-religion-individual-meats)        |
 |[Detailed description of data modeling methods](#detailed-description-of-data-modeling-methods)  |[Random Forest Predictor](#random-forest-prediction-of-gdp-using-meat-consumption-along-with-past-gdp)|
-|[R^2 Results for Individual Meats](#r2-results-for-individual-meats)                             |[SHAP Values for Predictor](#average-shap-values-shapley-values)                                   |
+|[R^2 Results for Individual Meats](#r2-results-for-individual-meats)                             |[SHAP Values for Predictor](#average-shap-values-shapley-values)                                      |
 |[Kmeans Clustering Results](#kmeans-clustering-results-meatballs-and-gdp-per-capita)             |[Meat the Team](#about-us)                                                                            |
 |[DBSCAN Results](#dbscan-results-meatballs-and-gdp-per-capita)                                   |                                                                                                      |
 
